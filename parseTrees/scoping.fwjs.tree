@@ -1,0 +1,1 @@
+(prog (stat var x = (expr 42) ;) (stat var f = (expr function ( ) { (stat print ( (expr x) ) ;) }) ;) (stat var g = (expr function ( ) { (stat var x = (expr 666) ;) (stat (expr f ( )) ;) (stat print ( (expr x) ) ;) }) ;) (stat (expr g ( )) ;))
